@@ -1,0 +1,24 @@
+Exercise 3
+
+Розробіть кальулятор, використовуючи prompt() та змінні. Розробіть программу, яка виконує наступне:
+
+Запитує користувача про перший номер
+Зберігає цей номер
+Запитує користувача про другий номер
+Зберігає другий номер та дає відповідь з сумою двох чисел за допомогою alert()
+Додатково: Зробіть програму, яка може ділити, множити, та віднімати ці два номери
+
+const calcFirstNum = prompt("Enter your number", 0);
+const calcSecondNum = prompt("Enter your second number", 0);
+
+const calcSum = +calcFirstNum + +calcSecondNum;
+alert(`The result of adding this two numbers is ${calcSum}`);
+
+const calcSub = +calcFirstNum - +calcSecondNum;
+alert(`The result of subtraction of this two numbers is ${calcSub}`);
+
+const calcMul = +calcFirstNum * +calcSecondNum;
+alert(`The result of multiplying this two numbers is ${calcMul}`);
+
+const calcDiv = +calcFirstNum / +calcSecondNum;
+alert(`The result of dividing this two numbers is ${calcDiv}`);
